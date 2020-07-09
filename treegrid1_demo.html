@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Basic TreeGrid - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/icon.css">
+	<script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.min.js"></script>
+
+	<script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+	<h2>Basic TreeGrid Demo</h2>
+	<p>TreeGrid allows you to expand or collapse group rows.</p>
+	
+	<table id="test" title="Folder Browser" class="easyui-treegrid" style="width:700px;height:300px"
+			url="./data/treegrid_data.json"
+			rownumbers="true"
+			idField="id" treeField="name">
+		<thead>
+			<tr>
+				<th field="name" width="220">Name</th>
+				<th field="size" width="100" align="right">Size</th>
+				<th field="date" width="150">Modified Date</th>
+			</tr>
+		</thead>
+	</table>
+	<script type="text/javascript" src="https://www.jeasyui.com/easyui/jquery.min.js"></script>
+</body>
+</html>

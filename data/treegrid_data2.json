@@ -1,0 +1,23 @@
+[ {
+    id: "MEN-000009",
+    title: "bravo",
+    state: "closed",
+    read: '<input id="read_MEN-000009" type="checkbox" name="read[]" value="MEN-000009" >',
+    add: '<input id="add_MEN-000009" type="checkbox" name="add[]" value="MEN-000009" >',
+    edit: '<input id="edit_MEN-000009" type="checkbox" name="edit[]" value="MEN-000009" >',
+    "delete": '<input id="delete_MEN-000009" type="checkbox" name="delete[]" value="MEN-000009" >',
+    checkrow: '<a href=javascript:; onClick="check_row(\'MEN-000009\')"><i class="fa fa-check"></i></a>',
+    uncheckrow: '<a href=javascript:; onClick="uncheck_row(\'MEN-000009\')"><i class="fa fa-times"></i></a>',
+    show: '<input type="hidden" name=show[] value="MEN-000009">'
+}, {
+    id: "MEN-000008",
+    title: "Setting",
+    state: "closed",
+    read: '<input id="read_MEN-000008" type="checkbox" name="read[]" value="MEN-000008" >',
+    add: '<input id="add_MEN-000008" type="checkbox" name="add[]" value="MEN-000008" >',
+    edit: '<input id="edit_MEN-000008" type="checkbox" name="edit[]" value="MEN-000008" >',
+    "delete": '<input id="delete_MEN-000008" type="checkbox" name="delete[]" value="MEN-000008" >',
+    checkrow: '<a href=javascript:; onClick="check_row(\'MEN-000008\')"><i class="fa fa-check"></i></a>',
+    uncheckrow: '<a href=javascript:; onClick="uncheck_row(\'MEN-000008\')"><i class="fa fa-times"></i></a>',
+    show: '<input type="hidden" name=show[] value="MEN-000008">'
+} ];
